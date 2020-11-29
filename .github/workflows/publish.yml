@@ -2,7 +2,7 @@
 
 name: Publish
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
@@ -32,8 +32,8 @@ jobs:
           hugo-version: '0.79.0'
 
       - name: Build
-        run: hugo --minify
-      
+        run: hugo
+
       - name: Publish
         if: success()
         uses: crazy-max/ghaction-github-pages@v2
