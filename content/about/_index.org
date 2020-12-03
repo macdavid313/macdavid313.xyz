@@ -1,8 +1,14 @@
 #+title: 顾天宇/Tianyu Gu/gty/macdavid313
 #+date: 2020-12-03
 
-欢迎！👋
-
-Welcome! 👋
+欢迎！Welcome! 👋
 
 I currently live in Sydney, Australia and work as a Software Developer.
+
+** Contact Information
+
+- Email: [[mailto:macdavid313@gmail.com][macdavid313@gmail.com]]
+- Skype: [[https://join.skype.com/invite/PnDVYxWL5k5a][live:mac.david]]
+- Discord: macdavid313#9385
+- Github: [[https://github.com/macdavid313][https://github.com/macdavid313]]
+- PGP: [[/assets/pgp-public.txt][public key]]
