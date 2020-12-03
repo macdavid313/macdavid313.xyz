@@ -5,11 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <style type=text/css>
-        body {
-            font-family: monospace;
-        }
-    </style>
     <title>{{ .Title }}</title>
     {{ with .Site.Params.description }}
     <meta name="description" content="{{ . }}">{{ end }}
@@ -23,6 +18,18 @@
     {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
     {{- end }}
     <link rel="shortcut icon" href="/img/favicon.ico" />
+    <style type=text/css>
+        body {
+            font-family: monospace;
+        }
+
+        figure {
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    </style>
 </head>
 
 <body>

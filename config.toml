@@ -27,13 +27,19 @@ title = "gty"
         identifier = "tags"
         name = "tags"
         url = "/tags/"
-        weight = 2
+        weight = 3
+
+  [[menu.main]]
+        identifier = "cat"
+        name = "cat"
+        url = "/cat/"
+        weight = 4
 
   [[menu.main]]
         identifier = "playlists"
         name = "playlists"
         url = "/playlists/"
-        weight = 3
+        weight = 5
 
 # Footer
   [[menu.footer]]
