@@ -24,9 +24,16 @@ title = "gty"
         weight = 2
 
   [[menu.main]]
+        identifier = "playlists"
+        name = "playlists"
+        url = "/playlists/"
+        weight = 3
+
+  [[menu.main]]
         identifier = "about"
         name = "about"
         url = "/about/"
+        weight = 4
 
 # Footer
   [[menu.footer]]
