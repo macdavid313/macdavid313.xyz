@@ -1,19 +1,45 @@
 baseURL = "https://macdavid313.xyz/"
 languageCode = "en-us"
-title = "Tianyu Gu Home Page"
+theme = "smol"
+title = "gty"
 
-theme = "vncnt-hugo"
-
+# Parameters
 [params]
-  author = "顾天宇 (Tianyu Gu)"
-  email = "macdavid313@gmail.com"
-  description = "Tianyu Gu's Home Page"
-  bio = "欢迎！Welcome!  \nI currently live in Sydney, Australia and work as a Software Developer."
-  avatar = "img/avatar.jpg"
-  favicon = "img/favicon.ico"
-  error404 = "There is no such page."
+    author = "Tianyu Gu"
+    subtitle = "You gotta go away to come back."
+    dateFmt = "Jan 2, 2006, Monday"
 
-  [params.contact]
-    github = "https://github.com/macdavid313"
-    skype = "https://join.skype.com/invite/PnDVYxWL5k5a"
-    telegram = "https://t.me/macdavid313"
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "posts"
+        name = "posts"
+        url = "/posts/"
+        weight = 1
+
+  [[menu.main]]
+        identifier = "tags"
+        name = "tags"
+        url = "/tags/"
+        weight = 2
+
+  [[menu.main]]
+        identifier = "about"
+        name = "about"
+        url = "/about/"
+
+# Footer
+  [[menu.footer]]
+        name = "email"
+        url = "mailto:macdavid313@gmail.com"
+        weight = 1
+
+  [[menu.footer]]
+        name = "github"
+        url = "https://github.com/macdavid313"
+        weight = 2
+
+  [[menu.footer]]
+        name = "PGP"
+        url = "/assets/pgp-public.txt"
+        weight = 3
