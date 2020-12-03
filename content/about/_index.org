@@ -1,15 +1,24 @@
-#+title: 顾天宇/Tianyu Gu/gty/macdavid313
+#+title: About
 #+date: 2020-12-03
 
-欢迎！Welcome! 👋
+#+BEGIN_CENTER
+I am Tianyu Gu (顾天宇), Welcome! 欢迎！👋
 
-I currently live in Sydney, Australia and work as a Software Developer.
+I currently live in /Sydney, Australia/ and work as a *Software Developer*.
 
-** Contact Information
+{{< figure src="/img/avatar.jpg" title="27th July, 2019" height="750" width="750" >}}
+#+END_CENTER
 
+** 联系 (Contact)
+
+- Web name: macdavid313
 - Email: [[mailto:macdavid313@gmail.com][macdavid313@gmail.com]]
 - PGP: [[/assets/pgp-public.txt][public key]]
 - Skype: live:mac.david
 - Discord: macdavid313#9385
 - Github: [[https://github.com/macdavid313][macdavid313]]
 - Instagram: [[https://www.instagram.com/davidgu357/][davidgu357]]
+
+** 友链 (Friends)
+
+- [[赖信涛 (laixintao)][https://www.kawabangga.com/]], 大学好朋友，Python 大师
