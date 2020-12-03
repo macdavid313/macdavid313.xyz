@@ -12,10 +12,16 @@ title = "gty"
 # Header
 [menu]
   [[menu.main]]
+        identifier = "about"
+        name = "about"
+        url = "/about/"
+        weight = 1
+
+  [[menu.main]]
         identifier = "posts"
         name = "posts"
         url = "/posts/"
-        weight = 1
+        weight = 2
 
   [[menu.main]]
         identifier = "tags"
@@ -28,12 +34,6 @@ title = "gty"
         name = "playlists"
         url = "/playlists/"
         weight = 3
-
-  [[menu.main]]
-        identifier = "about"
-        name = "about"
-        url = "/about/"
-        weight = 4
 
 # Footer
   [[menu.footer]]
