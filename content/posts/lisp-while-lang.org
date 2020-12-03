@@ -4,10 +4,10 @@
 
 I have written a [[https://gist.github.com/macdavid313/39cff0fffeaab93b0d09c314ee89cac7][solution]] to Hackerrank’s problem [[https://www.hackerrank.com/challenges/while-language-fp/problem]["While Language"]] in Common Lisp, solely for fun. Several years ago, I have solved it using OCaml.
 
-Where does 'fun' come from? In Lisp, it's really easy to construct ASTs. In a lot of scenarios, you can effortlessly =transpile= source code into Lisp forms and then ask your Lisp implementation to analyse, optimise and execute it. For example, after lexing and parsing, I have written a function =gen-lisp-code= to expose the transpiled Lisp code:
+Where does 'fun' come from? In Lisp, it's really easy to construct ASTs. In a lot of scenarios, you can effortlessly ~transpile~ source code into Lisp forms and then ask your Lisp implementation to analyse, optimise and execute it. For example, after lexing and parsing, I have written a function ~gen-lisp-code~ to expose the transpiled Lisp code:
 
 #+BEGIN_SRC lisp
-* (pprint (gen-lisp-code "fact := 1 ;
+(pprint (gen-lisp-code "fact := 1 ;
 val := 10000 ;
 cur := val ;
 mod := 1000000007 ;
@@ -22,6 +22,7 @@ while ( cur > 1 )
 
 cur := 0"))
 
+#|
 (LAMBDA ()
   (LET* ((|cur| 0) (|fact| 0) (|mod| 0) (|val| 0))
     (DECLARE (OPTIMIZE SPEED (SPACE 0) (SAFETY 1))
@@ -40,12 +41,13 @@ cur := 0"))
     (FORMAT T "~a ~d~%" "fact" |fact|)
     (FORMAT T "~a ~d~%" "mod" |mod|)
     (FORMAT T "~a ~d~%" "val" |val|)))
+|#
 #+END_SRC
 
 Afterwards, the lambda definition can be sent to Lisp's =compile= function and generate a Lisp function which can be excuted to print the desired results:
 
-#+BEGIN_SRC
-* (funcall (compile nil (gen-lisp-code "fact := 1 ;
+#+BEGIN_SRC lisp
+(funcall (compile nil (gen-lisp-code "fact := 1 ;
 val := 10000 ;
 cur := val ;
 mod := 1000000007 ;
@@ -60,18 +62,18 @@ while ( cur > 1 )
 
 cur := 0")))
 
-cur 0
-fact 531950728
-mod 1000000007
-val 10000
-NIL
+;; cur 0
+;; fact 531950728
+;; mod 1000000007
+;; val 10000
+;; NIL
 #+END_SRC
 
 Therefore, my solution is actually not an interpreter but a compiler that transpiles While language code into Lisp forms. In other languages, writing a compiler arguably requires more code; but in Lisp, with its comprehensive run-time system, it becomes much easier.
 
-The full solution is shown below (see from [[https://gist.github.com/macdavid313/39cff0fffeaab93b0d09c314ee89cac7][Gist]]):
+The full solution is shown below (or see from [[https://gist.github.com/macdavid313/39cff0fffeaab93b0d09c314ee89cac7][Gist]]):
 
-#+BEGIN_SRC
+#+BEGIN_SRC lisp
 ;;;; while.lisp
 ;;;; A solution to Hackerrank's While Language problem --
 ;;;; https://www.hackerrank.com/challenges/while-language-fp/problem
