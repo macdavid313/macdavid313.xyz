@@ -17,8 +17,9 @@ I currently live in /Sydney, Australia/ and work as a *Software Developer*.
 - Skype: live:mac.david
 - Discord: macdavid313#9385
 - Github: [[https://github.com/macdavid313][macdavid313]]
+- Twitter: [[https://twitter.com/macdavid313][macdavid313]]
 - Instagram: [[https://www.instagram.com/davidgu357/][davidgu357]]
 
 ** 友链 (Friends)
 
-- [[赖信涛 (laixintao)][https://www.kawabangga.com/]], 大学好朋友，Python 大师
+- [[https://www.kawabangga.com/][赖信涛 (laixintao)]] -- 大学好朋友，Python 大师
