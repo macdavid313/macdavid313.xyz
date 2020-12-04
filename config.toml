@@ -61,8 +61,20 @@ title = "gty"
         name = "twitter"
         url = "https://twitter.com/macdavid313"
         weight = 4
-        
+
   [[menu.footer]]
         name = "instagram"
         url = "https://www.instagram.com/davidgu357/"
         weight = 5
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "emacs"
+    tabWidth = 4
