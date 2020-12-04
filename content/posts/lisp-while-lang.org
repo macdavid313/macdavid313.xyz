@@ -2,9 +2,9 @@
 #+date: 2019-04-12
 #+tags[]: lisp, hackerrank, compiler
 
-I have written a [[https://gist.github.com/macdavid313/39cff0fffeaab93b0d09c314ee89cac7][solution]] to Hackerrank’s problem [[https://www.hackerrank.com/challenges/while-language-fp/problem]["While Language"]] in Common Lisp, solely for fun. Several years ago, I have solved it using OCaml.
+I have written a [[https://gist.github.com/macdavid313/39cff0fffeaab93b0d09c314ee89cac7][solution]] to Hackerrank's problem [[https://www.hackerrank.com/challenges/while-language-fp/problem]["While Language"]] in Common Lisp, solely for fun. Several years ago, I have solved it using OCaml.
 
-Where does 'fun' come from? In Lisp, it's really easy to construct ASTs. In a lot of scenarios, you can effortlessly ~transpile~ source code into Lisp forms and then ask your Lisp implementation to analyse, optimise and execute it. For example, after lexing and parsing, I have written a function ~gen-lisp-code~ to expose the transpiled Lisp code:
+Where does 'fun' come from? In Lisp, it's really easy to construct ASTs. In a lot of scenarios, you can effortlessly *transpile* source code into Lisp forms and then ask your Lisp implementation to analyse, optimise and execute it. For example, after lexing and parsing, I have written a function ~gen-lisp-code~ to expose the transpiled Lisp code:
 
 #+BEGIN_SRC lisp
 (pprint (gen-lisp-code "fact := 1 ;
