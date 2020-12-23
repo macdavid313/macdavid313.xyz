@@ -76,5 +76,5 @@ title = "gty"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "emacs"
+    style = "friendly"
     tabWidth = 4
