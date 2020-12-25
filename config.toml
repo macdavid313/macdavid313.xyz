@@ -18,28 +18,34 @@ title = "gty"
         weight = 1
 
   [[menu.main]]
+        identifier = "wiki"
+        name = "wiki"
+        url = "https://macdavid313.xyz/wiki/"
+        weight = 2
+
+  [[menu.main]]
         identifier = "posts"
         name = "posts"
         url = "/posts/"
-        weight = 2
+        weight = 3
 
   [[menu.main]]
         identifier = "tags"
         name = "tags"
         url = "/tags/"
-        weight = 3
+        weight = 4
 
   [[menu.main]]
         identifier = "cat"
         name = "cat"
         url = "/cat/"
-        weight = 4
+        weight = 5
 
   [[menu.main]]
         identifier = "playlists"
         name = "playlists"
         url = "/playlists/"
-        weight = 5
+        weight = 6
 
 # Footer
   [[menu.footer]]
