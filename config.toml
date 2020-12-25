@@ -78,3 +78,6 @@ title = "gty"
     noClasses = true
     style = "friendly"
     tabWidth = 4
+
+[markup.goldmark.renderer]
+  unsafe = true
