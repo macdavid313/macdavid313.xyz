@@ -64,14 +64,9 @@ title = "gty"
         weight = 3
 
   [[menu.footer]]
-        name = "twitter"
-        url = "https://twitter.com/macdavid313"
-        weight = 4
-
-  [[menu.footer]]
         name = "instagram"
         url = "https://www.instagram.com/davidgu357/"
-        weight = 5
+        weight = 4
 
 [markup]
   [markup.highlight]
