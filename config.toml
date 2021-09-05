@@ -2,6 +2,7 @@ baseURL = "https://macdavid313.xyz/"
 languageCode = "en-us"
 theme = "smol"
 title = "gty"
+hasCJKLanguage = true
 
 # Parameters
 [params]
