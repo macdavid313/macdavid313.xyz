@@ -78,7 +78,7 @@ hasCJKLanguage = true
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "friendly"
+    style = "emacs"
     tabWidth = 4
 
 [markup.goldmark.renderer]
