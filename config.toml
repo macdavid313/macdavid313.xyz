@@ -7,8 +7,8 @@ hasCJKLanguage = true
 # Parameters
 [params]
     author = "Tianyu Gu"
-    subtitle = "You gotta go away to come back."
-    dateFmt = "Jan 2, 2006, Monday"
+    subtitle = "Life goes on."
+    dateFmt = "Monday, Jan 2 2006"
 
 # Header
 [menu]
