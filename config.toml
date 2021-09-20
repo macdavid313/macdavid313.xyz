@@ -19,12 +19,6 @@ hasCJKLanguage = true
         weight = 1
 
   [[menu.main]]
-        identifier = "wiki"
-        name = "wiki"
-        url = "https://macdavid313.xyz/wiki/"
-        weight = 2
-
-  [[menu.main]]
         identifier = "posts"
         name = "posts"
         url = "/posts/"
@@ -48,7 +42,7 @@ hasCJKLanguage = true
         url = "/playlists/"
         weight = 6
 
-# Footer
+  # Footer
   [[menu.footer]]
         name = "email"
         url = "mailto:macdavid313@gmail.com"
