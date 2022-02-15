@@ -6,7 +6,7 @@ I am Tianyu Gu (顾天宇), Welcome! 欢迎！👋
 
 I currently live in /Sydney, Australia/ and work as a *Software Developer*.
 
-{{< figure src="/img/avatar.jpg" title="27th July, 2019" height="750" width="750" >}}
+{{< figure src="/img/avatar.jpeg" title="29th January, 2022" height="750" width="750" >}}
 #+END_CENTER
 
 ** 联系 (Contact)
