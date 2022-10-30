@@ -18,7 +18,7 @@ body {
   font: 14px/1.5 monospace;
   color: var(--fontcolor);
   background: var(--bgcolor);
-  font-family: sans-serif, monospace;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 120%;
 }
 
